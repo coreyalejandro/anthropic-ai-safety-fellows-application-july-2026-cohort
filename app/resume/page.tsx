@@ -1,3 +1,5 @@
+import styles from './resume.module.css';
+
 const TIMELINE = [
   {
     era: 'EDUCATION',
@@ -8,6 +10,7 @@ const TIMELINE = [
       'First-generation college student. Navigated higher education as a neurodivergent Black man.',
       'Foundation in systems thinking, performance theory, and human behavior — not just technique.',
       'Developed early framework for cognitive accessibility and communication under pressure.',
+      'Received Dean\'s Award for Service for op-ed column with Stanford Daily.',
     ],
     tags: ['Stanford', 'Systems Thinking', 'First-Gen', 'Human Behavior'],
   },
@@ -31,42 +34,39 @@ const TIMELINE = [
     role: 'Executive Director, OC Global → Director of Online Learning',
     org: 'Odessa College → Our Lady of the Lake University',
     highlights: [
-      'Founded OC Global — equity-driven online college-within-a-college serving 5,000+ nontraditional learners annually.',
-      'Restructured 16-week curricula into accelerated 8-week and 4-week course designs — first in Texas.',
-      'Led institution-wide instructional technology integration with hands-on faculty support (100+ faculty).',
-      'Piloted ReadSpeaker assistive technology; executed ADA/504 audits across entire curriculum.',
-      'Launched MobileU — ML-driven SMS course delivery for infrastructure-poor students.',
-      'Negotiated 10+ articulation agreements. Led Achieving the Dream data-analytics platform adoption.',
-      'Directed 40% enrollment growth at OLLU in two years through 5-year strategic plan.',
-      'Course-quality rubric scores: 2.8 → 4.2/5 after equity-centered PD program (OLLU).',
-      'Chronicle of Higher Education, CBS 7, KWES coverage. BbWorld + Texas ACE eLearning Conference presenter.',
+      'Founded OC Global — equity-centered, data-driven, R&D-focused online college-within-a-college',
+      'First school to broadcast live online courses using WebEx, a partnership which helped them pivot to e-learning.',   
+      'Architected the redesign of 16 week core curriculum into accelerated 8-week and 4-week self-paced courses.',
+      'Initiated institution-wide online course conversion across all degree-seeking and continuing education programs.',
+      'Led accrediation program review and data analysis for distance education and online ADA/504 student services.',
+      'Launched MobileU instructional design experiment using machine learning to deliver text message based courses',
+      'Featured on Chronicle of Higher Education tech podcast, CBS 7, KWES coveragee, and BbWorld for innovation.',
     ],
-    tags: ['Systems Architecture', 'Modularity', 'Equity', 'ADA/504', 'LMS', 'Early ML/EdTech', 'Data Analytics'],
+    tags: ['Systems Architecture','Instructional Systems Design' ,'Modularization', 'Equity', 'ADA/504', 'LMS', 'UI/UX Design'],
     proof: '5,000+ learners annually | First accelerated online college in Texas | 100+ faculty',
   },
   {
     era: 'BRIDGE',
     period: '2018–2024',
-    role: 'Training Design → AI/ML Engineering Transition',
-    org: 'Snooze / Outlier / Centific / Independent',
+    role: 'Training Design → Data Sciece/Machine Learning/ Engineering ',
+    org: 'Snooze / Starbucks / Independent Researcher/Developer',
     highlights: [
-      'Created "Aquatech Olympics" — gamified, ML-powered training system; reduced service errors/waste 58% in 3 months (Snooze 2018–2021).',
-      'Completed IBM RAG and Agentic AI, Data Science Foundations, and MasterTrack Certificate in Instructional Design.',
-      'Expert-level multimodal annotation (text, image, code, conversation) for frontier model training — Outlier.ai / Centific (2025–present).',
-      'RLHF/RLAIF rubric evaluation: flagging hallucinated, biased, and unsafe content at scale.',
-      'Built Google Sheets dashboards for annotation throughput tracking — performance analytics infrastructure.',
-      'Realized: the formulas I was writing were mathematical expressions of the stories I\'d been telling for decades.',
+      'Created "Aquatech Olympics" — gamified, ML-driven training system; improved service delivery and worker retention by 25%.',
+      'Provided no-chargefull stack web design and development and daily operations for nonprofits, small business, and churches.',
+      'Redesigned training and workflows to support neurodivergent employees, increasing their performance metrics by 20%.',
+      'Served as internal and external community liaison between restaurant and local businesses and head office and team members.',
+      'Initiated and led cross-functional team in opening the only 24-hour Starbucks at San Antonio Airport, boosting sales 34%.',
     ],
-    tags: ['Data Science', 'ML/AI Annotation', 'RLHF/RLAIF', 'Rubric Evaluation', 'Prompt Engineering'],
+    tags: ['Data Science', 'Machine Learning', 'Stakeholder Engagement', 'Rubric Evaluation', 'Learning and Development'],
   },
   {
-    era: 'RESEARCH',
-    period: '2023–2025',
-    role: 'AI Safety Researcher / Builder — SentinelOS',
-    org: 'Self-employed | The Living Constitution',
+    era: 'AI/ML Engineering',
+    period: '2022–Present',
+    role: 'AI Safety and Governance Researcher / GenAI Developer',
+    org: 'Independent AI Researcher and Developer',
     highlights: [
-      'SentinelOS: AI Safety Operating Layer across 4 domains — Epistemic, Human, Cognitive, Empirical Safety.',
-      'PROACTIVE Agent: constitutional governance layer — CI/CD security agent preventing hallucinated/unverifiable code from reaching production.',
+      'Unified Prompting Operating System (UPOS) - kernel-based platform-agnostic enterprise-wide prompting framework and dev tool.',
+      'The-Living-Constitutiion - a neurodivergent-first vernance operating system  layer for enterprise-wide GenAI deployment.',
       'ConsentChain: cryptographic consent ledger with full 7-stage execution pipeline (validation → policy → revocation → exec → ledger).',
       'UICare (HUI): dual-agent behavioral intervention for neurodivergent developers during high-risk cognitive states.',
       'Clarity AI: teacher-style rubrics replacing black-box reward functions — accelerated dev cycles 109×, reduced fine-tuning costs 326×.',
@@ -75,35 +75,7 @@ const TIMELINE = [
     ],
     tags: ['Constitutional AI', 'Agentic Safety', 'Governance', 'Intent Alignment', 'C-RSP', 'Multi-Agent'],
   },
-  {
-    era: 'PROOF',
-    period: '2024–2025',
-    role: 'Lead Engineer — PROACTIVE / ConsentChain',
-    org: 'GitLab Hackathon + Independent',
-    highlights: [
-      '100% detection rate with 0% false positives (n=200 TruthfulQA) — controlled evaluation pipeline.',
-      '212/212 tests passing. Submitted and validated in GitLab hackathon.',
-      'ConsentChain: Turborepo monorepo (8 packages), Prisma schema, NextAuth/Auth0, Docker deployment.',
-      'Frostbyte ETL: enterprise async Python pipeline; jsonschema Draft-07 multi-tenant metadata security.',
-      '"Blind-user heuristic" — non-visual users as the default constraint during architecture design.',
-    ],
-    tags: ['100% Detection Rate', '212/212 Tests', 'TypeScript', 'Python', 'Prisma', 'CI/CD Security'],
-    proof: '212/212 tests | 100% detection | 0% false positives',
-  },
-  {
-    era: 'NOW',
-    period: '2025–Present',
-    role: 'AI Safety Fellow Candidate',
-    org: 'Anthropic — July 2026 Cohort',
-    highlights: [
-      'Applying the "One-Man Show" modularity rigor to Anthropic\'s Constitutional AI mission.',
-      'Active: SentinelOS, The Living Constitution (6 projects), ITAYN research, ConsentChain.',
-      'Multimodal annotation at Outlier.ai and Centific — frontier model training, RLHF, safety flagging.',
-      '"Intention is All You Need" (ITAYN): intent-preserving alignment, lossless human-to-machine translation.',
-      'Commitment: 10/10. This is not a career pivot. This is convergence.',
-    ],
-    tags: ['Constitutional AI', 'AI Safety Research', 'Anthropic', 'Intent Alignment', 'RLHF/RLAIF'],
-  },
+
 ];
 
 const TECHNICAL_STACK = [
@@ -160,11 +132,11 @@ export default function ResumePage() {
                 />
 
                 <div
-                  className="border p-8"
-                  style={{
-                    backgroundColor: index === TIMELINE.length - 1 ? '#222228' : '#1c1c22',
-                    borderColor: index === TIMELINE.length - 1 ? '#3f3f46' : '#27272a',
-                  }}
+                  className={`border p-8 ${
+                    index === TIMELINE.length - 1
+                      ? styles['timeline-item-last']
+                      : styles['timeline-item-default']
+                  }`}
                 >
                   <div className="flex items-start justify-between mb-4">
                     <div>
@@ -183,7 +155,7 @@ export default function ResumePage() {
                   </div>
 
                   <ul className="space-y-2 mb-4" role="list">
-                    {node.highlights.map((h, i) => (
+                    {node.highlights?.map((h, i) => (
                       <li key={i} className="flex items-start gap-2 text-xs text-zinc-300 leading-relaxed" role="listitem">
                         <span className="text-zinc-600 shrink-0 mt-0.5">—</span>
                         <span>{h}</span>
@@ -192,7 +164,7 @@ export default function ResumePage() {
                   </ul>
 
                   <div className="flex flex-wrap gap-2 mt-4" role="list" aria-label="Tags">
-                    {node.tags.map((tag) => (
+                    {node.tags?.map((tag) => (
                       <span
                         key={tag}
                         role="listitem"
@@ -211,8 +183,7 @@ export default function ResumePage() {
 
       {/* Education */}
       <section
-        className="mb-8 border p-8"
-        style={{ backgroundColor: '#1c1c22', borderColor: '#27272a' }}
+        className={`mb-8 border p-8 ${styles['section-default']}`}
         aria-labelledby="education-heading"
       >
         <h2 id="education-heading" className="text-xs tracking-[0.3em] text-zinc-500 uppercase mb-6">
@@ -234,8 +205,7 @@ export default function ResumePage() {
 
       {/* Technical Stack */}
       <section
-        className="border p-8"
-        style={{ backgroundColor: '#1c1c22', borderColor: '#27272a' }}
+        className={`border p-8 ${styles['section-default']}`}
         aria-labelledby="stack-heading"
       >
         <h2 id="stack-heading" className="text-xs tracking-[0.3em] text-zinc-500 uppercase mb-8">

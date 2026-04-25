@@ -1,0 +1,14 @@
+.timeline-item-default {
+  background-color: #1c1c22;
+  border-color: #27272a;
+}
+
+.timeline-item-last {
+  background-color: #222228;
+  border-color: #3f3f46;
+}
+
+.section-default {
+  background-color: #1c1c22;
+  border-color: #27272a;
+}
