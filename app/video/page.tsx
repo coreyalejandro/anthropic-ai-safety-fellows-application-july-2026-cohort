@@ -29,7 +29,7 @@ export default function VideoPage() {
             <section aria-labelledby="talking-points-heading">
               <h3 id="talking-points-heading" className="text-xl font-light tracking-wide text-zinc-50 mb-4">Key Talking Points</h3>
               <ul className="list-disc list-inside space-y-2 text-sm text-zinc-300 ml-4" role="list" aria-label="Key talking points">
-                <li role="listitem">25-year journey from Teacher → Dean → AI Engineer</li>
+                <li role="listitem">35-year journey from Teacher → Dean → AI Engineer</li>
                 <li role="listitem">Neuro-diversity and accessibility as foundational principles</li>
                 <li role="listitem">"Intention is All You Need" (ITAYN) project</li>
                 <li role="listitem">Constitutional AI alignment with personal mission</li>

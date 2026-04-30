@@ -52,7 +52,7 @@ const REFERENCES = [
       headline: 'Why This Candidate is Unusual',
       metric: 'K-20 → Policy → Code → Safety Research — all in one person',
       context:
-        'Most AI safety candidates arrive from pure research or pure engineering. I arrive from human safety — 25 years of building systems where the failure mode is a person being harmed, not a metric being miscalibrated. This is a different kind of rigor.',
+        'Most AI safety candidates arrive from pure research or pure engineering. I arrive from human safety — 35 years of building systems where the failure mode is a person being harmed, not a metric being miscalibrated. This is a different kind of rigor.',
       talking_points: [
         'I am autistic and schizophrenic. I build safety systems because I have needed them my entire life.',
         'I view neuro-diversity not as a liability but as a signal: if a system is safe for me, it is genuinely safe.',

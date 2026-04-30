@@ -245,7 +245,7 @@ export default function Home() {
         <nav aria-label="Application sectors">
           <div className="grid gap-px bg-zinc-800 border border-zinc-800 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { href: '/essays', label: 'ESSAYS', sub: 'Safety as Home', desc: 'The 25-year narrative through-line. Written in blood.' },
+              { href: '/essays', label: 'ESSAYS', sub: 'Safety as Home', desc: 'The 35-year narrative through-line. Written in blood.' },
               { href: '/research', label: 'RESEARCH', sub: 'COL-PROACTIVE', desc: 'Constitutional AI × MBSE. The I1–I6 invariant bridge.' },
               { href: '/resume', label: 'THE ARC', sub: '35 Years', desc: 'Stanford → Educator → Dean → AI Engineer. All evidence.' },
               { href: '/ledger', label: 'LEDGER', sub: 'References', desc: 'Zero-effort context for Odessa College and PROACTIVE.' },

@@ -4,7 +4,7 @@ export default function EssaysPage() {
       <header className="mb-12">
         <h1 id="essays-title" className="text-4xl font-light tracking-[0.3em] text-zinc-50 mb-4">Essay Answers</h1>
         <p className="text-sm text-zinc-400 font-light tracking-wider">
-          Narrative through-line: "Safety as Home" — The 25-Year Build
+          Narrative through-line: "Safety as Home" — The 35-Year Build
         </p>
       </header>
 
@@ -12,11 +12,11 @@ export default function EssaysPage() {
         {/* Narrative Through-line */}
         <section className="border border-zinc-800 p-8" style={{ backgroundColor: '#18181b' }} aria-labelledby="narrative-heading">
           <h2 id="narrative-heading" className="text-2xl font-light tracking-wide text-zinc-50 mb-6">
-            Narrative Through-line: The 25-Year Build
+            Narrative Through-line: The 35-Year Build
           </h2>
           <div className="space-y-6">
             <p className="text-sm text-zinc-300 leading-relaxed">
-              My journey to AI Safety is not a recent pivot; it is the culmination of 25 years of
+              My journey to AI Safety is not a recent pivot; it is the culmination of 35 years of
               architectural labor in the human, system, and digital realms. As a person living with
               autism and schizophrenia, I have spent my entire life feeling like "prey."
               Consequently, my professional mission has been the creation of "Safety for All" —
@@ -216,7 +216,7 @@ export default function EssaysPage() {
               10/10 - Extremely Likely
             </p>
             <p className="text-sm text-zinc-400">
-              My 25-year trajectory has been leading to a place like Anthropic. This isn't just a
+              My 35-year trajectory has been leading to a place like Anthropic. This isn't just a
               job; it's the convergence of my professional expertise and my personal survival.
             </p>
           </section>
